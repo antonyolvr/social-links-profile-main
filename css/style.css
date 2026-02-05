@@ -21,7 +21,7 @@ body {
 
 h1 {
     color: var(--white);
-    font-weight: 700;
+    font-weight: 600;
     font-size: 24px;
 }
 
@@ -45,7 +45,7 @@ a {
 
 .main-content {
     min-height: 100vh;
-    background: var(--black);
+    background: var(--grey900);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,11 +59,11 @@ a {
     align-items: center;
     padding: 2.5rem;
     border-radius: 1rem;
-    width: min(420px, 100%);
+    width: min(384px, 100%);
 }
 
 .profile-card img {
-    width: 100px;
+    width: 88px;
     border-radius: 6rem;
     padding: 0 0 0.5rem 0;
 }
@@ -83,9 +83,11 @@ a {
 
 .links a {
     background: var(--grey700);
-    padding: 0.875rem 1rem 0.875rem 1rem;
+    padding: 0.775rem 1rem 0.775rem 1rem;
     border-radius: 0.5rem;
     font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
 }
 
 .links a:hover {
@@ -107,10 +109,6 @@ a {
 
     .profile-card {
         padding: 1.5rem;
-    }
-
-    .profile-card img {
-        width: 88px;
     }
 
     .profile-card p {
